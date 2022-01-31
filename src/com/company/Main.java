@@ -6,30 +6,64 @@ import java.util.Scanner;
 
   public class Main {
       public static void main(String[] args) {
-
+        Triangle triangle = new Triangle();
+        triangle.a = 20;
+        triangle.b = 30;
+        triangle.c = 25;
+         System.out.print("Уч бурчтуктун аянты: ");
+          triangle.area();
 
 
 
 
 
       }
+      }
 
-          
-  }
+      /*
 
-//      Scanner scanner = new Scanner(System.in);                                                                                                  System.out.println("Консольго эки сан жазыныз: ");
-//        int a = scanner.nextInt();
-//        int b = scanner.nextInt();
-//        if(a % b==0){
-//        System.out.println(a+" "+b+"ге калдыксыз болунот");                                                                                                                            } else {
-//        System.out.println(a+" "+b+"ге болунбойт");
-//        }
-//        }
-           /*  int shet = 0;
-                 for (int i = 1; i <= 300 ; i++) {
-                  if (i % 3 == 0 || i % 4 == 0 || i % 5 == 0){
-                  shet = shet + 1;
-                  }
-                  }
-                  System.out.println(shet);
+
+
+
+          Car car = new Car();
+          car.name = "Audi";
+          car.jyly = 2021;
+          car.obem = 2.6;
+          car.salmagu = 1200;
+          car.tusu = "Black";
+
+          System.out.println( " Марка: " +car.name);
+          System.out.println("Чыгарылган жылы: "+car.jyly);
+          System.out.println("Обьем: "+car.obem);
+          System.out.println("Салмагы: "+car.salmagu);
+          System.out.println("Тусу: "+car.tusu);
+
+             Person person = new Person();
+             person.name = "Arlen";
+             person.age= 20;
+             person.salmagy = 65;
+             person.boy = 170;
+
+             System.out.println(person.name);
+             System.out.println(person.age);
+             System.out.println(person.salmagy);
+             System.out.println(person.boy);
+          }
+
+      }
+
+
+          Random me = new Random();
+          int[] intArray = new int[10];
+          int shetchik = 0;
+
+          for (int i = 0; i < intArray.length; i++) {
+              intArray[i] = me.nextInt(50);
+          }
+
+          for (int i = 0; i < intArray.length; i++) {
+              shetchik = shetchik + intArray[i];
+          }
+
+          System.out.println(shetchik / 10d);
 */
