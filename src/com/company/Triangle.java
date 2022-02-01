@@ -6,8 +6,8 @@ public class Triangle {
     int c;
 
     void area(){
-        int sum = a + b + c;
-        System.out.println(sum);
+        int sum = (a + b + c)/2;
+        System.out.println(sum + " см");
     }
 
 

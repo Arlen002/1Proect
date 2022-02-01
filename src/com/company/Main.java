@@ -9,7 +9,7 @@ import java.util.Scanner;
         Triangle triangle = new Triangle();
         triangle.a = 20;
         triangle.b = 30;
-        triangle.c = 25;
+        triangle.c = 40;
          System.out.print("Уч бурчтуктун аянты: ");
           triangle.area();
 
