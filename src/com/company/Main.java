@@ -1,20 +1,24 @@
 package com.company;
-
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
-
   public class Main {
       public static void main(String[] args) {
-        Triangle triangle = new Triangle();
-        triangle.a = 20;
-        triangle.b = 30;
-        triangle.c = 40;
-         System.out.print("Уч бурчтуктун аянты: ");
-          triangle.area();
+//        Triangle triangle = new Triangle();
+//        triangle.a = 13;
+//        triangle.b = 14;
+//        triangle.c = 15;
+//         System.out.print("Уч бурчтуктун аянты: ");
+//          triangle.area();
 
-
-
+        Phone phone = new Phone();
+        phone.name = " Apple";
+        phone.marka = "SE 2 ";
+        phone.made = " USA ";
+        phone.jyly = 2020;
+        phone.tusu = " Kara";
+        phone.phone();
+        System.out.println(phone.phone1());
 
 
       }
