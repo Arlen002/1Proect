@@ -1,13 +1,13 @@
 package com.company;
 
 public class Triangle {
-    int a;
-    int b;
-    int c;
+    double a;
+    double b;
+    double c;
 
     void area(){
-        int sum = (a + b + c)/2;
-        System.out.println(sum + " см");
+        double p = (a + b + c)/2;
+        System.out.println(Math.sqrt(p * (p - a) * (p - b) * (p - c)));
     }
 
 

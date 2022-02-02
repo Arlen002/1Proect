@@ -4,21 +4,22 @@ import java.util.Random;
 import java.util.Scanner;
   public class Main {
       public static void main(String[] args) {
-//        Triangle triangle = new Triangle();
-//        triangle.a = 13;
-//        triangle.b = 14;
-//        triangle.c = 15;
-//         System.out.print("Уч бурчтуктун аянты: ");
-//          triangle.area();
+       Triangle triangle = new Triangle();
+       triangle.a = 13;
+       triangle.b = 14;
+       triangle.c = 15;
+       triangle.area();
 
-        Phone phone = new Phone();
-        phone.name = " Apple";
-        phone.marka = "SE 2 ";
-        phone.made = " USA ";
-        phone.jyly = 2020;
-        phone.tusu = " Kara";
-        phone.phone();
-        System.out.println(phone.phone1());
+
+
+//        Phone phone = new Phone();
+//        phone.name = " Apple";
+//        phone.marka = "SE 2 ";
+//        phone.made = " USA ";
+//        phone.jyly = 2020;
+//        phone.tusu = " Kara";
+//        phone.phone();
+//        System.out.println(phone.phone1());
 
 
       }
@@ -26,6 +27,12 @@ import java.util.Scanner;
 
       /*
 
+          Scanner sc = new Scanner(System.in);
+          int a = sc.nextInt();
+          int x = a/10/10%10;
+          int y = a/10%10;
+          int z = a%10;
+          System.out.printf("%d,%d,%d",x,y,z);
 
 
 
